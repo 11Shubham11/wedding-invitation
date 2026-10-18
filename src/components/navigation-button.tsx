@@ -121,7 +121,7 @@ export function NavigationButton({
       <motion.div
         className="absolute inset-0 rounded-lg sm:rounded-xl opacity-0 group-hover:opacity-10 transition-opacity duration-300"
         style={{
-          background: `radial-gradient(circle at center, #C087B0 0%, transparent 70%)`,
+          background: `radial-gradient(circle at center, #C5A059 0%, transparent 70%)`,
         }}
       />
     </motion.button>

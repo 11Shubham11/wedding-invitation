@@ -193,7 +193,7 @@ export const AttireGuide = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 30 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="max-w-2xl mx-auto mt-12 bg-white/70 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-amethyst/20 text-center shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden"
+          className="max-w-2xl mx-auto mt-12 bg-snow/80 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-amethyst/30 text-center shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 w-24 h-24 bg-amethyst/5 rounded-full blur-2xl -mr-6 -mt-6"></div>
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-amethyst/5 rounded-full blur-2xl -ml-6 -mb-6"></div>

@@ -359,13 +359,13 @@ export default function UnifiedFAB({
         {/* Main Expanding Button */}
         <div className="relative">
           <svg className="w-14 h-14 transform -rotate-90 absolute inset-0" viewBox="0 0 64 64">
-            <circle cx="32" cy="32" r="28" fill="none" stroke="rgba(192, 135, 176, 0.1)" strokeWidth="2" />
+            <circle cx="32" cy="32" r="28" fill="none" stroke="rgba(197, 160, 89, 0.2)" strokeWidth="2" />
             <motion.circle
               cx="32"
               cy="32"
               r="28"
               fill="none"
-              stroke="#B57F86"
+              stroke="#C5A059"
               strokeWidth="2"
               strokeLinecap="round"
               initial={{ pathLength: 0 }}

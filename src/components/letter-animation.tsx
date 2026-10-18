@@ -11,19 +11,19 @@ import styles from './letter-animation.module.css';
 
 const CornerOrnament = ({ className }: { className?: string }) => (
   <svg className={`${styles.cornerOrnament} ${className || ''}`} viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 10 Q80 10 10 80" stroke="#6B2737" strokeWidth="1" fill="none" />
-    <path d="M10 10 Q60 40 40 90" stroke="#6B2737" strokeWidth="0.7" fill="none" />
-    <path d="M10 10 Q40 60 90 40" stroke="#6B2737" strokeWidth="0.7" fill="none" />
-    <circle cx="10" cy="10" r="3" fill="#6B2737" />
-    <ellipse cx="50" cy="50" rx="18" ry="10" fill="#6B2737" opacity="0.6" transform="rotate(-30 50 50)" />
-    <ellipse cx="30" cy="70" rx="14" ry="8" fill="#6B2737" opacity="0.5" transform="rotate(-60 30 70)" />
-    <ellipse cx="70" cy="30" rx="14" ry="8" fill="#6B2737" opacity="0.5" transform="rotate(0 70 30)" />
-    <circle cx="55" cy="20" r="4" fill="#6B2737" opacity="0.4" />
-    <circle cx="20" cy="55" r="4" fill="#6B2737" opacity="0.4" />
-    <circle cx="75" cy="55" r="3" fill="#6B2737" opacity="0.3" />
-    <circle cx="55" cy="75" r="3" fill="#6B2737" opacity="0.3" />
-    <path d="M25 80 Q35 65 50 70 Q45 85 25 80Z" fill="#6B2737" opacity="0.5" />
-    <path d="M80 25 Q65 35 70 50 Q85 45 80 25Z" fill="#6B2737" opacity="0.5" />
+    <path d="M10 10 Q80 10 10 80" stroke="#C5A059" strokeWidth="1" fill="none" />
+    <path d="M10 10 Q60 40 40 90" stroke="#C5A059" strokeWidth="0.7" fill="none" />
+    <path d="M10 10 Q40 60 90 40" stroke="#C5A059" strokeWidth="0.7" fill="none" />
+    <circle cx="10" cy="10" r="3" fill="#C5A059" />
+    <ellipse cx="50" cy="50" rx="18" ry="10" fill="#58111A" opacity="0.6" transform="rotate(-30 50 50)" />
+    <ellipse cx="30" cy="70" rx="14" ry="8" fill="#58111A" opacity="0.5" transform="rotate(-60 30 70)" />
+    <ellipse cx="70" cy="30" rx="14" ry="8" fill="#58111A" opacity="0.5" transform="rotate(0 70 30)" />
+    <circle cx="55" cy="20" r="4" fill="#C5A059" opacity="0.4" />
+    <circle cx="20" cy="55" r="4" fill="#C5A059" opacity="0.4" />
+    <circle cx="75" cy="55" r="3" fill="#C5A059" opacity="0.3" />
+    <circle cx="55" cy="75" r="3" fill="#C5A059" opacity="0.3" />
+    <path d="M25 80 Q35 65 50 70 Q45 85 25 80Z" fill="#58111A" opacity="0.5" />
+    <path d="M80 25 Q65 35 70 50 Q85 45 80 25Z" fill="#58111A" opacity="0.5" />
   </svg>
 );
 
